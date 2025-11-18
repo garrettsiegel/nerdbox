@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Button } from "./Button";
 
 
 export const Nav = () => {
@@ -11,7 +12,7 @@ export const Nav = () => {
         </Link>
 
 
-        <ul className="flex gap-4 list-none">
+        <ul className="flex gap-4 list-none font-bold text-[14px]">
           <li><Link to="/Courses">Courses</Link></li>
           <li><Link to="/Bootcamps">Bootcamps</Link></li>
           <li><Link to="/Articles">Articles</Link></li>
@@ -21,11 +22,11 @@ export const Nav = () => {
         </ul>
       </div>
 
-      <div className="flex gap-4">
+      <div className="flex gap-2">
         {/* TODO: add auth here */}
-        <button>Login</button>
-        <button>Sign Up</button>
-        <button>Subscribe</button>
+        <Button>Login</Button>
+        <Button>Sign Up</Button>
+        <Button>Subscribe</Button>
       </div>
 
     </nav>

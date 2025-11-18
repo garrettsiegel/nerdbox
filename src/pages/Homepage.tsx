@@ -1,5 +1,5 @@
-import { Intro } from "./Intro"
-import { LatestCourses } from "./LatestCourses"
+import { Intro } from "../components/Intro"
+import { LatestCourses } from "../components/LatestCourses"
 
 export const Homepage = () => {
   return (

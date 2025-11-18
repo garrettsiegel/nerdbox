@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Homepage } from "./components/Homepage"
+import { Homepage } from "./pages/Homepage"
 import { Nav } from "./components/Nav"
 import { Courses } from "./pages/Courses"
 import { Bootcamps } from "./pages/Bootcamps"
